@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter Page</title>
+
+    <link rel="stylesheet" href="task3.css">
+
+    <!-- fontawesom links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="illustration1"></div>
+        <h1>Temperature Converter</h1>
+        <hr>
+        <img class="logo" src="./assets/tc1.png"><br>
+        <label for="temp">Enter temperature :</label>
+        <input type="number" id="temp" placeholder="Enter temperature">
+        <br><br>
+
+        <button onclick="convertToFahrenheit()">Convet To Fahrenheit</button>
+
+        <button onclick="convertToFahrenheit()">Convet To Celsius</button>
+
+        <div id="result"></div>
+        <div class="illustration"></div>
+    </div>
+    
+    <script src="task3.js"></script>
+  </body>
+</html>
